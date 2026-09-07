@@ -1,0 +1,16 @@
+# 环境与凭证 - 永远不要提交
+.env
+*.env
+credentials/
+*.key
+*.pem
+
+# n8n 本地数据
+.n8n/
+
+# Milvus 数据卷
+milvus/volumes/
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
